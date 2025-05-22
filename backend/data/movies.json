@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Movie 1",
+    "posterUrl": "https://via.placeholder.com/150",
+    "description": "Description for Movie 1",
+    "genre": "Action",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+  },
+  {
+    "id": 2,
+    "title": "Movie 2",
+    "posterUrl": "https://via.placeholder.com/150",
+    "description": "Description for Movie 2",
+    "genre": "Comedy",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+  },
+  {
+    "id": 3,
+    "title": "Movie 3",
+    "posterUrl": "https://via.placeholder.com/150",
+    "description": "Description for Movie 3",
+    "genre": "Drama",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "netflix-clone-replit",
+  "version": "1.0.0",
+  "description": "A Netflix clone application for Replit.",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev-backend": "node backend/server.js",
+    "dev-frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm:dev-backend\" \"npm:dev-frontend\"",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizadt19/jules.git"
+  },
+  "keywords": ["netflix", "clone", "replit", "react", "node"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizadt19/jules/issues"
+  },
+  "homepage": "https://github.com/rizadt19/jules#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2" # Using a more recent version
+  }
+}
